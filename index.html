@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Ali Davodi | Frontend Portfolio</title>
+		<meta
+			name="description"
+			content="Ali Davodi - React Native, React, Next.js developer portfolio"
+		/>
+		<meta name="theme-color" content="#370A13" />
+		<link rel="icon" href="data:," />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Vazirmatn:wght@400;500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="ambient ambient-a"></div>
+		<div class="ambient ambient-b"></div>
+		<div class="noise"></div>
+
+		<header class="topbar glass reveal">
+			<a class="brand" href="#top">
+				<span class="brand-dot"></span>
+				<strong>Ali Davodi</strong>
+			</a>
+
+			<nav class="nav" aria-label="primary">
+				<a data-i18n="nav.about" href="#about">درباره من</a>
+				<a data-i18n="nav.experience" href="#experience">تجربه</a>
+				<a data-i18n="nav.skills" href="#skills">مهارت‌ها</a>
+				<a data-i18n="nav.contact" href="#contact">تماس</a>
+			</nav>
+
+			<button id="langToggle" class="lang-switch" type="button" aria-label="Switch language">
+				<span class="lang-state">FA</span>
+			</button>
+		</header>
+
+		<main id="top" class="container">
+			<section class="hero">
+				<div class="hero-grid">
+					<article class="hero-main glass reveal">
+						<p class="eyebrow" data-i18n="hero.eyebrow">رزومه حرفه‌ای</p>
+						<h1 data-i18n="hero.name">علی داودی</h1>
+						<h2 data-i18n="hero.role">Frontend Developer (React / React Native / Next.js)</h2>
+						<p class="lead" data-i18n="hero.summary">
+							توسعه‌دهنده React Native با بیش از 7 سال تجربه در ساخت اپلیکیشن‌های موبایل، معماری تمیز،
+							و تمرکز روی عملکرد بالا.
+						</p>
+
+						<div class="hero-meta">
+							<a class="meta-chip" href="tel:09335711372">
+								<lord-icon
+									src="https://cdn.lordicon.com/nnzfcuqw.json"
+									trigger="hover"
+									colors="primary:#ff024e,secondary:#ffffff"
+									style="width:26px;height:26px"
+								></lord-icon>
+								<span>09335711372</span>
+							</a>
+							<a class="meta-chip" href="mailto:ali.davodi1372@gmail.com">
+								<lord-icon
+									src="https://cdn.lordicon.com/vpbspaec.json"
+									trigger="hover"
+									colors="primary:#ff024e,secondary:#ffffff"
+									style="width:26px;height:26px"
+								></lord-icon>
+								<span>ali.davodi1372@gmail.com</span>
+							</a>
+							<a class="meta-chip" href="https://linkedin.com/in/alidavodi" target="_blank" rel="noopener">
+								<lord-icon
+									src="https://cdn.lordicon.com/euybrknk.json"
+									trigger="hover"
+									colors="primary:#ff024e,secondary:#ffffff"
+									style="width:26px;height:26px"
+								></lord-icon>
+								<span data-i18n="hero.linkedin">LinkedIn Profile</span>
+							</a>
+							<a class="meta-chip" href="https://github.com/alidavodii" target="_blank" rel="noopener">
+								<lord-icon
+									src="https://cdn.lordicon.com/jjxzcivr.json"
+									trigger="hover"
+									colors="primary:#ff024e,secondary:#ffffff"
+									style="width:26px;height:26px"
+								></lord-icon>
+								<span data-i18n="hero.github">GitHub: alidavodii</span>
+							</a>
+							<span class="meta-chip">
+								<lord-icon
+									src="https://cdn.lordicon.com/onmwuuox.json"
+									trigger="hover"
+									colors="primary:#ff024e,secondary:#ffffff"
+									style="width:26px;height:26px"
+								></lord-icon>
+								<span data-i18n="hero.location">Kermanshah, Iran</span>
+							</span>
+						</div>
+
+						<div class="hero-actions">
+							<a class="btn btn-primary" href="#experience" data-i18n="hero.ctaExperience">مشاهده تجربه‌ها</a>
+							<a class="btn btn-secondary" href="#contact" data-i18n="hero.ctaContact">ارتباط با من</a>
+						</div>
+					</article>
+
+					<aside class="hero-side glass reveal delay-1">
+						<div class="stat-card">
+							<p class="stat-value">+7</p>
+							<p class="stat-label" data-i18n="stats.years">سال تجربه تخصصی</p>
+						</div>
+						<div class="stat-card">
+							<p class="stat-value">+5</p>
+							<p class="stat-label" data-i18n="stats.focus">شرکت و استارتاپ</p>
+						</div>
+						<div class="stat-card">
+							<p class="stat-value">Remote</p>
+							<p class="stat-label" data-i18n="stats.remote">همکاری موثر در تیم‌های چابک</p>
+						</div>
+					</aside>
+				</div>
+			</section>
+
+
+
+			<section id="about" class="section reveal">
+				<div class="section-head">
+					<p class="section-kicker" data-i18n="about.kicker">خلاصه حرفه‌ای</p>
+					<h3 data-i18n="about.title">توسعه سریع، معماری تمیز، محصول پایدار</h3>
+				</div>
+				<article class="glass summary-card">
+					<p data-i18n="about.body">
+						Experienced React Native Developer with over 7 years of hands-on experience in building mobile
+						applications. Proficient in React Native, TypeScript, Redux, and React Query. Passionate about clean
+						architecture, UI/UX best practices, and delivering high-performance apps. Skilled in remote collaboration
+						and agile development.
+					</p>
+				</article>
+			</section>
+
+			<section id="experience" class="section">
+				<div class="section-head reveal">
+					<p class="section-kicker" data-i18n="exp.kicker">سوابق کاری</p>
+					<h3 data-i18n="exp.title">مسیر حرفه‌ای من</h3>
+				</div>
+				<div class="timeline">
+						<article class="timeline-item glass reveal delay-2">
+							<span class="dot"></span>
+							<div class="timeline-content">
+								<h4 data-i18n="exp.bfinder.title">BFinder — Product Developer (Web & App)</h4>
+								<p class="meta" data-i18n="exp.bfinder.meta">Pacifica Analytic | Remote | Istanbul | Feb 2026 – Present</p>
+								<p data-i18n="exp.bfinder.body">Designed and built BFinder end-to-end — a platform for discovering local service
+									providers via web and mobile; features include map-based search, provider profiles, and service detail
+									pages.</p>
+								<a class="project-link" href="https://bfinder.ca" target="_blank" rel="noopener"
+									data-i18n="exp.bfinder.link">Visit bfinder.ca</a>
+							</div>
+						</article>
+						
+						<article class="timeline-item glass reveal">
+							<span class="dot"></span>
+							<div class="timeline-content">
+								<h4 data-i18n="exp.pacific.title">Pacifica Analytic — Frontend Developer</h4>
+								<p class="meta" data-i18n="exp.pacific.meta">Pacifica Analytic | Remote | Feb 2026 – Present</p>
+								<p data-i18n="exp.pacific.body">Designed and built the full frontend of Pacifica Analytic, a data analysis and
+									visualization platform; implemented interactive map-based data views, dynamic charts, and management
+									dashboards.</p>
+								<a class="project-link" href="https://pacificaanalytic.com" target="_blank" rel="noopener"
+									data-i18n="exp.pacific.link">Visit pacificaanalytic.com</a>
+							</div>
+						</article>
+					<article class="timeline-item glass reveal delay-0">
+						<span class="dot"></span>
+						<div class="timeline-content">
+							<h4 data-i18n="exp.optisan.title">Optisan Co. — Next.js Developer</h4>
+							<p class="meta" data-i18n="exp.optisan.meta">Remote | March 2025 – June 2025</p>
+							<p data-i18n="exp.optisan.body">Built the main admin dashboard from scratch using Next.js, Redux Toolkit, React Query, and Material UI; delivered a fully responsive, data-rich interface within a 3-month remote contract.</p>
+						</div>
+					</article>
+
+					<article class="timeline-item glass reveal delay-1">
+						<span class="dot"></span>
+						<div class="timeline-content">
+							<h4 data-i18n="exp.payam.title">Payam GPS — React Native Developer</h4>
+							<p class="meta" data-i18n="exp.payam.meta">Remote | Part-time | Jan 2024 – Present</p>
+							<p data-i18n="exp.payam.body">Developed real-time vehicle tracking features using WebSocket and map SDK integration; built custom mobile UI components for live location display and instant alerts.</p>
+						</div>
+					</article>
+
+					<article class="timeline-item glass reveal delay-2">
+						<span class="dot"></span>
+						<div class="timeline-content">
+							<h4 data-i18n="exp.wodex.title">Wodex Startup — React Native Developer</h4>
+							<p class="meta" data-i18n="exp.wodex.meta">Remote | Mar 2022 – Jan 2024</p>
+							<p data-i18n="exp.wodex.body">Built a cross-platform fitness app from scratch using React Native and TypeScript; integrated Redux, React Query, Firebase, push notifications, in-app purchases, and multi-language support (i18n) within a fast-paced startup environment.</p>
+						</div>
+					</article>
+
+					<article class="timeline-item glass reveal">
+						<span class="dot"></span>
+						<div class="timeline-content">
+							<h4 data-i18n="exp.capila.title">Capila Co. — React Native Developer</h4>
+							<p class="meta" data-i18n="exp.capila.meta">Kermanshah | Feb 2021 – Mar 2022</p>
+							<p data-i18n="exp.capila.body">Implemented core Android app modules including interactive map views, payment gateway, mobile top-up flow, and ticket booking system; contributed to improving overall app stability and performance.</p>
+						</div>
+					</article>
+
+					<article class="timeline-item glass reveal delay-1">
+						<span class="dot"></span>
+						<div class="timeline-content">
+							<h4 data-i18n="exp.sepehr.title">Homtick — React Native Developer</h4>
+							<p class="meta" data-i18n="exp.sepehr.meta">Amol | Sep 2018 – Feb 2021</p>
+							<p data-i18n="exp.sepehr.body">Led development of the first version of the Homtick apartment management app; built the push notification system, payment integration, and a full tenant-landlord management module from scratch.</p>
+						</div>
+					</article>
+
+				
+				</div>
+			</section>
+
+			<section id="skills" class="section">
+				<div class="section-head reveal">
+					<p class="section-kicker" data-i18n="skills.kicker">توانمندی‌ها</p>
+					<h3 data-i18n="skills.title">مهارت‌های فنی</h3>
+				</div>
+				<div class="skills-grid">
+					<article class="skill-card glass reveal">
+						<h4 data-i18n="skills.lang.title">Languages & Frameworks</h4>
+						<p>React Native, React.js, Next.js, TypeScript, JavaScript</p>
+					</article>
+					<article class="skill-card glass reveal delay-1">
+						<h4 data-i18n="skills.state.title">State & Data</h4>
+						<p>Redux, React Query, GraphQL, Zustand</p>
+					</article>
+					<article class="skill-card glass reveal delay-2">
+						<h4 data-i18n="skills.ui.title">UI Libraries</h4>
+						<p>Material UI, Tailwind CSS</p>
+					</article>
+					<article class="skill-card glass reveal">
+						<h4 data-i18n="skills.best.title">Best Practices</h4>
+						<p>SOLID Principles, Clean Architecture</p>
+					</article>
+					<article class="skill-card glass reveal delay-1">
+						<h4 data-i18n="skills.tools.title">Tools</h4>
+						<p>Git, Firebase, WebSocket, Map Integration</p>
+					</article>
+					<article class="skill-card glass reveal delay-2">
+						<h4 data-i18n="skills.edu.title">Education</h4>
+						<p data-i18n="skills.edu.body">فوق دیپلم — دانشگاه نهاوند (۱۳۹۰–۱۳۹۲) | کارشناسی — دانشگاه شمال آمل (۱۳۹۲–۱۳۹۴)</p>
+					</article>
+				</div>
+			</section>
+
+				<section id="companies" class="section reveal">
+				<div class="section-head">
+					<p class="section-kicker" data-i18n="companies.kicker">همکاری‌ها</p>
+					<h3 data-i18n="companies.title">شرکت‌ها و اپلیکیشن‌هایی که با آن‌ها کار کردم</h3>
+				</div>
+
+				<div class="logos-grid">
+					<a class="logo-item glass" href="https://bfinder.ca" target="_blank" rel="noopener" aria-label="BFinder">
+						<img class="logo-svg" src="icons/bfinder.png" alt="BFinder" />
+						<span class="logo-name">BFinder</span>
+					</a>
+
+					<a class="logo-item glass" href="https://optisan.ir" target="_blank" rel="noopener" aria-label="Optisan">
+						<img class="logo-svg" src="icons/optisan.png" alt="Optisan" />
+						<span class="logo-name">Optisan</span>
+					</a>
+
+					<a class="logo-item glass" href="https://payamgps.ir" target="_blank" rel="noopener" aria-label="Payam GPS">
+						<img class="logo-svg" src="icons/payamgps.png" alt="Payam GPS" />
+						<span class="logo-name">Payam GPS</span>
+					</a>
+
+					<a class="logo-item glass" href="https://wodex.app" target="_blank" rel="noopener" aria-label="Wodex">
+						<img class="logo-svg" src="icons/wodex.png" alt="Wodex" />
+						<span class="logo-name">Wodex</span>
+					</a>
+
+					<a class="logo-item glass" href="https://capila.ir" target="_blank" rel="noopener" aria-label="Capila">
+						<img class="logo-svg" src="icons/capila.jpeg" alt="Capila" />
+						<span class="logo-name">Capila</span>
+					</a>
+
+					<a class="logo-item glass" href="https://homtick.com" target="_blank" rel="noopener" aria-label="Homtick">
+						<img class="logo-svg" src="icons/homtick.png" alt="Homtick" />
+						<span class="logo-name">Homtick</span>
+					</a>
+          
+					<a class="logo-item glass" href="https://pacificaanalytic.com" target="_blank" rel="noopener" aria-label="Pacifica Analytic">
+						<svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
+							<rect width="100" height="100" rx="18" fill="#0b2540" />
+							<text x="50" y="57" font-size="26" text-anchor="middle" fill="#7fd3ff" font-family="Vazirmatn, sans-serif">PA</text>
+						</svg>
+						<span class="logo-name">Pacifica Analytic</span>
+					</a>
+				</div>
+				
+			</section>
+
+			<section id="contact" class="section reveal">
+				<div class="contact-box glass">
+					<div>
+						<p class="section-kicker" data-i18n="contact.kicker">همکاری</p>
+						<h3 data-i18n="contact.title">برای پروژه‌های حرفه‌ای آماده‌ام</h3>
+						<p data-i18n="contact.body">اگر دنبال یک توسعه‌دهنده فرانت‌اند متعهد برای وب یا موبایل هستید، خوشحال می‌شوم همکاری کنیم.</p>
+					</div>
+					<div class="contact-links">
+						<a class="btn btn-primary" href="mailto:ali.davodi1372@gmail.com" data-i18n="contact.email">ارسال ایمیل</a>
+						<a class="btn btn-secondary" href="tel:09335711372" data-i18n="contact.call">تماس مستقیم</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p data-i18n="footer.copy">© 2026 Ali Davodi. All rights reserved.</p>
+		</footer>
+
+		<script src="https://cdn.lordicon.com/lordicon.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+
